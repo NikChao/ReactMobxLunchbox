@@ -4,4 +4,6 @@ class AppState {
     @observable user = undefined;
 }
 
-export default AppState;
+
+// Singleton store, to be used globally
+export default new AppState();

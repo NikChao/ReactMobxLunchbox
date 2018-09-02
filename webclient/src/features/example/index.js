@@ -9,11 +9,11 @@ export default class CounterComponent extends Component {
   store = new CounterStore();
 
   increment() {
-    this.store.count++;
+    this.store.increment();
   }
 
   decrement() {
-    this.store.count--;
+    this.store.decrement();
   }
 
   render() {
